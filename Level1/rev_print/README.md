@@ -6,22 +6,22 @@ Expected files   : rev_print.c
 Allowed functions: write
 --------------------------------------------------------------------------------
 
-Write a function that takes a string and displays the string in reverse order 
-followed by the newline.
+Write a function that takes a string and displays the string in 
+reverse order followed by the newline.
 
 Its prototype is constructed like this :
 char *ft_rev_print (char *str)
 
-It must return its argument
+It must return its argument.
 
 Examples:
 int main(void)
 {
-    rev_print("dub0 a POIL") | cat -e
+    rev_print("dub0 a POIL");
     write(1, "\n", 1);
-    rev_print("rainbow dash") | cat -e
+    rev_print("rainbow dash");
     write(1, "\n", 1);
-    rev_print("") | cat -e
+    rev_print("");
     write(1, "\n", 1);
 }
 
