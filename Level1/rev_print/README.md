@@ -10,7 +10,7 @@ Write a function that takes a string and displays the string in reverse order
 followed by the newline.
 
 Its prototype is constructed like this :
-char *ft_rev_print (char *str)
+char *ft_rev_print(char *str)
 
 It must return its argument.
 
