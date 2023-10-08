@@ -1,22 +1,30 @@
-## Subject
-
-```
 Assignment name  : rev_print
 Expected files   : rev_print.c
 Allowed functions: write
 --------------------------------------------------------------------------------
 
-Write a program that return the string, and displays the string in reverse
-followed by a newline.
+Write a function that takes a string and displays the string in reverse order 
+followed by the newline.
 
-char *rev_print(char *str);
+Its prototype is constructed like this :
+char *ft_rev_print (char *str)
+
+It must return its argument
 
 Examples:
+int main(void)
+{
+    rev_print("dub0 a POIL") | cat -e
+    write(1, "\n", 1);
+    rev_print("rainbow dash") | cat -e
+    write(1, "\n", 1);
+    rev_print("") | cat -e
+    write(1, "\n", 1);
+}
 
-$> rev_print("dub0 a POIL") | cat -e
 LIOP a 0bud$
-$> ./rev_print("") | cat -e
-
+$>
+hsad wobniar$
 $>
 
-```
+$>
